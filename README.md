@@ -72,7 +72,7 @@ I would like to express my gratitude to the open-source community for their inva
 - [Python](https://www.python.org/) for providing a powerful programming language.
 - [GitHub](https://github.com/) for hosting this repository and enabling collaboration.
 
-Thank you for using the ChatGPT 3.5 Desktop App! We hope you find it useful and enjoy your conversations with ChatGPT.
+Thank you for using the ChatGPT 3.5 Desktop App! I hope you find it useful and enjoy your conversations with ChatGPT.
 
 
 [github_badge]: https://badgen.net/badge/icon/GitHub?icon=github&color=black&label
