@@ -28,6 +28,8 @@ The repository is structured as follows:
 - **0 - MUST READ FIRST.txt**: This file contains instructions for installing and running the application. It is recommended to read this file before proceeding with the installation.
 - **requirements.txt**: This file lists all the required Python modules and packages necessary to run the desktop app. You can install these dependencies by running the command `pip install -r requirements.txt` as mentioned in the installation instructions later.
 - **icons**: This folder contains the ICO image that is used as the app's window icon.
+- **README.md**: Provides an overview of this repository.
+- **LICENSE**: The license file for the project.
 
 
 ## Get Started
