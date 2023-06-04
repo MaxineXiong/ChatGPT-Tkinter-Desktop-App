@@ -129,11 +129,11 @@ class App:
             # If user's message is entered
             if user_message != '':
                 # Insert the user's message into the chat window
-                self.chat_window.insert(END, 'You: ' + user_message + '\n')
+                self.chat_window.insert(END, 'You: ' + user_message + '\n\n')
                 # Send the user's message to the bot for processing and retrieve the bot's response
                 self.bot_message = self.bot.chatting(user_message)
                 # Insert the bot's message into the chat window
-                self.chat_window.insert(END, 'Bot: ' + self.bot_message + '\n')
+                self.chat_window.insert(END, 'Bot: ' + self.bot_message + '\n\n')
         # Clear the user message entry
         self.user_msg_entry.delete(0, END)
 
@@ -186,7 +186,7 @@ class App:
                 # Clear the chat history
                 self.clear_history()
                 # Insert a message into the chat window indicating that the API key is being updated
-                self.chat_window.insert(END, "[Updating API Key...]\n")
+                self.chat_window.insert(END, "[Updating API Key...]\n\n")
 
                 try:
                     # Instantiate the ChatBot with the new API key
@@ -194,9 +194,9 @@ class App:
                     # Send a test message to the chatbot to ensure it is working
                     self.bot_message = self.bot.chatting('hello')
                     # If the chatbot is successfully loaded, display a success message in the chat window...
-                    self.chat_window.insert(END, "[Chatbot loaded successfully. You may BEGIN your conversation now.]\n")
+                    self.chat_window.insert(END, "[Chatbot loaded successfully. You may BEGIN your conversation now.]\n\n")
                     # ...and the bot's response to the test message
-                    self.chat_window.insert(END, 'Bot: ' + self.bot_message + "\n")
+                    self.chat_window.insert(END, 'Bot: ' + self.bot_message + "\n\n")
                 # If the chatbot is failed to initialize
                 except Exception as e:
                     # Display an error message indicating the API key is invalid
@@ -208,7 +208,7 @@ class App:
                     # Clear the key_entry
                     self.key_entry.delete(0, END)
                     # Insert an error message into the chat window indicating the specific error encountered
-                    self.chat_window.insert(END, '[ERROR: Invalid API key provided]\n')
+                    self.chat_window.insert(END, '[ERROR: Invalid API key provided]\n\n')
 
 
 
