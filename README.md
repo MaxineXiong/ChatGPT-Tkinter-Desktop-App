@@ -15,7 +15,7 @@ closely resembles interacting with a real person.
 
 ***Click the badge below to run the application** (Please be aware that the audio playback functionality may not be available when running the application on Replit)*:
 
-[![Run on Repl.it](https://replit.com/badge/github/MaxineXiong/ChatGPT-3.5-Desktop-App.git)](https://replit.com/@MaxineXiong/ChatGPT-35-Desktop-App??view=1)
+[![Run on Repl.it](https://replit.com/badge/github/MaxineXiong/ChatGPT-3.5-Desktop-App.git)](https://replit.com/@MaxineXiong/ChatGPT-35-Desktop-App??v=1)
 
 ## Features
 
