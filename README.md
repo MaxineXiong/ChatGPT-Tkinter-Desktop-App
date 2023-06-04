@@ -28,7 +28,7 @@ closely resembles interacting with a real person.
 
 The repository is structured as follows:
 
-- **MAIN.py**: This file is the main entry point of the desktop app and contains the Python code responsible for handling the user interface and communication with the ChatGPT model.
+- **MAIN.py**: This file is the main entry point of the desktop app and contains the Python code responsible for handling the user interface and communication with the GPT model.
 - **bot.py**: This file contains the Python code that defines the class for the ChatGPTBot, encapsulating the functionality of the ChatGPT model and handling the generation of responses.
 - **requirements.txt**: This file lists all the required Python modules and packages necessary to run the desktop app. You can install these dependencies by running the command `pip install -r requirements.txt` as mentioned in the installation instructions later.
 - **icons**: This folder contains the ICO image that is used as the app's window icon.
