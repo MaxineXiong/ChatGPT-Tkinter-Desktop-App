@@ -58,6 +58,10 @@ To intall the desktop application on your computer, please follow these steps:
 
 Now you can start chatting with ChatGPT by entering your [API key](https://platform.openai.com/account/api-keys), and then typing your messages in the input field and pressing Enter.
 
+
+![Demo](https://github.com/MaxineXiong/ChatGPT-3.5-Desktop-App/assets/55864839/a8d1f74d-a524-4bbd-89ca-b848fe732fb3)
+
+
 ## Contributions
 
 Contributions to the ChatGPT-3.5 Desktop App are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request. Your contributions can help improve the functionality and user experience of the app.
