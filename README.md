@@ -5,6 +5,7 @@
 [![python](https://img.shields.io/badge/Python-3.9-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 [![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)](https://chat.openai.com/)
 
+[![Run on Repl.it](https://repl.it/badge/github/techwithtim/NEAT-Flappy-Bird)](https://repl.it/github/techwithtim/NEAT-Flappy-Bird)
 
 Welcome to the repository for the unofficial ChatGPT-3.5 Desktop App! This user-friendly application allows you to have natural language conversations
 with ChatGPT directly from your local computer. This desktop application is built upon OpenAI's **gpt-3.5-turbo model**, which offers advanced natural
