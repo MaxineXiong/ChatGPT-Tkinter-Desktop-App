@@ -13,7 +13,7 @@ language processing capabilities. Through an intuitive user interface, you can e
 and even listen to the chatbot's responses through audio playback. The goal of this app is to provide an immersive and enjoyable conversational experience that
 closely resembles interacting with a real person.
 
-***Click the badge below to run the application** (Please be aware that the audio playback functionality may not be available when running the application on Replit)*:
+***Press the CTRL key and click the badge below simultaneously to run the application** (Please be aware that the audio playback functionality may not be available when running the application on Replit)*:
 
 [![Run on Repl.it](https://replit.com/badge/github/MaxineXiong/ChatGPT-3.5-Desktop-App.git)](https://replit.com/@MaxineXiong/ChatGPT-35-Desktop-App?v=1)
 
