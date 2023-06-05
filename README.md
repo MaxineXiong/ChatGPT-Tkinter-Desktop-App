@@ -1,11 +1,11 @@
 # ChatGPT-3.5 Desktop App
 
-[![GitHub][github_badge]][github_link]
+[![GitHub](https://badgen.net/badge/icon/GitHub?icon=github&color=black&label)](https://github.com/MaxineXiong)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![python](https://img.shields.io/badge/Python-3.9-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 [![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)](https://chat.openai.com/)
 
-
+<br/>
 
 Welcome to the repository for the unofficial ChatGPT-3.5 Desktop App! This user-friendly application allows you to have natural language conversations
 with ChatGPT directly from your local computer. This desktop application is built upon OpenAI's **gpt-3.5-turbo model**, which offers advanced natural
@@ -17,12 +17,16 @@ closely resembles interacting with a real person.
 
 [![Run on Repl.it](https://replit.com/badge/github/MaxineXiong/ChatGPT-3.5-Desktop-App.git)](https://replit.com/@MaxineXiong/ChatGPT-35-Desktop-App?v=1)
 
+<br/>
+
 ## Features
 
 - **Intuitive User Interface**: The ChatGPT-3.5 Desktop App provides a seamless and user-friendly interface, enabling effortless conversations with ChatGPT.
 - **Immersive Conversational Experience**: Engage in natural language conversations with ChatGPT using your own [OpenAI API key](https://platform.openai.com/account/api-keys), creating an authentic and immersive experience that closely resembles conversing with a real person.
 - **Conversation History**: Easily access and review your past conversations within the app, allowing for convenient reference and continuity.
 - **Audio Playback**: Enhance your experience by listening to the chatbot's responses through built-in audio playback functionality, bringing the conversation to life.
+
+<br/>
 
 ## Repository Structure
 
@@ -35,6 +39,7 @@ The repository is structured as follows:
 - **README.md**: Provides an overview of this repository.
 - **LICENSE**: The license file for the project.
 
+<br/>
 
 ## Get Started
 
@@ -65,14 +70,19 @@ Now you can start chatting with ChatGPT by entering your [API key](https://platf
 
 ![Demo](https://github.com/MaxineXiong/ChatGPT-3.5-Desktop-App/assets/55864839/a8d1f74d-a524-4bbd-89ca-b848fe732fb3)
 
+<br/>
 
 ## Contributions
 
 Contributions to the ChatGPT-3.5 Desktop App are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request. Your contributions can help improve the functionality and user experience of the app.
 
+<br/>
+
 ## License
 
 The ChatGPT-3.5 Desktop App is licensed under the [MIT License](https://choosealicense.com/licenses/mit/). Feel free to use, modify, and distribute the application in accordance with the terms of the license.
+
+<br/>
 
 ## Acknowledgments
 
@@ -82,8 +92,8 @@ I would like to express my gratitude to the open-source community for their inva
 - [Python](https://www.python.org/) for providing a powerful programming language.
 - [GitHub](https://github.com/) for hosting this repository and enabling collaboration.
 
+<br/>
+
 Thank you for using the ChatGPT 3.5 Desktop App! I hope you find it useful and enjoy your conversations with ChatGPT.
 
 
-[github_badge]: https://badgen.net/badge/icon/GitHub?icon=github&color=black&label
-[github_link]: https://github.com/MaxineXiong
