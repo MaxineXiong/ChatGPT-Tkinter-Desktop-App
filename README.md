@@ -1,4 +1,4 @@
-# ChatGPT-3.5 Desktop App
+# ChatGPT Tkinter Desktop App
 
 [![GitHub](https://badgen.net/badge/icon/GitHub?icon=github&color=black&label)](https://github.com/MaxineXiong)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
