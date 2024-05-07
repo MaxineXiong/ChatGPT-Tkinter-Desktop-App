@@ -33,11 +33,22 @@ closely resembles interacting with a real person.
 ## Repository Structure
 
 The repository is structured as follows:
+```
+ChatGPT-Tkinter-Desktop-App/
+├── MAIN.py                   
+├── bot.py                   
+├── requirements.txt         
+├── icons/
+├── virtual/         
+├── README.md                 
+└── LICENSE                   
+```
 
 - **MAIN.py**: This file is the main entry point of the desktop app and contains the Python code responsible for handling the user interface and communication with the GPT model.
 - **bot.py**: This file contains the Python code that defines the class for the ChatGPTBot, encapsulating the functionality of the ChatGPT model and handling the generation of responses.
 - **requirements.txt**: This file lists all the required Python modules and packages necessary to run the desktop app. You can install these dependencies by running the command `pip install -r requirements.txt` as mentioned in the installation instructions later.
-- **icons**: This folder contains the ICO image that is used as the app's window icon.
+- **icons/**: This folder contains the ICO image that is used as the app's window icon.
+- **virtual/**: This folder contains all files related to the virtual environment, facilitating an isolated space for Python package management.
 - **README.md**: Provides an overview of this repository.
 - **LICENSE**: The license file for the project.
 
@@ -57,13 +68,9 @@ To intall the desktop application on your computer, please follow these steps:
 
 3) Navigate to the project folder using File Explorer, type `cmd` in the address bar at the top of the window, and press Enter. This will open Command Prompt in the project folder.
 
-4) Install all required Python modules and packages by running the following command in Command Prompt:
+4) Navigate to the project folder, and launch the desktop application within the virtual environment by entering the following command in the Command Prompt:
     ```
-    pip install -r requirements.txt
-    ```
-5) Launch the desktop app by typing the following command in Command Prompt:
-    ```
-    python MAIN.py
+    virtual\Scripts\python MAIN.py
     ```
 
 
