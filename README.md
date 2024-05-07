@@ -8,10 +8,10 @@
 
 <br/>
 
-Welcome to the repository for the unofficial ChatGPT-3.5 Desktop App! This user-friendly application allows you to have natural language conversations
-with ChatGPT directly from your local computer. This desktop application is built upon OpenAI's **gpt-3.5-turbo model**, which offers advanced natural
-language processing capabilities. Through an intuitive user interface, you can easily engage in conversations with ChatGPT, review past interactions,
-and even listen to the chatbot's responses through audio playback. The goal of this app is to provide an immersive and enjoyable conversational experience that
+Welcome to the repository for the **unofficial ChatGPT Tkinter Desktop App**! This user-friendly application allows you to have natural language conversations
+with [ChatGPT](https://openai.com/index/chatgpt) directly from your local computer — provided you have internet access. Built upon OpenAI's [**Chat Completions API**](https://platform.openai.com/docs/guides/text-generation/chat-completions-api), it leverages advanced natural language processing capabilities to deliver high-quality responses to human's requests.
+Through an intuitive user interface, you can easily select between [***GPT-3.5 Turbo***](https://platform.openai.com/docs/models/gpt-3-5-turbo) and [***GPT-4 Turbo***](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4) models, engage in conversations with ChatGPT, review previous interactions,
+and even listen to the chatbot's responses through audio playback. The goal of this application is to provide an immersive and enjoyable conversational experience that
 closely resembles interacting with a real person.
 
 ***Press the CTRL key and click the badge below simultaneously to run the application** (Please be aware that the audio playback functionality may not be available when running the application on Replit)*:
@@ -22,8 +22,9 @@ closely resembles interacting with a real person.
 
 ## Features
 
-- **Intuitive User Interface**: The ChatGPT-3.5 Desktop App provides a seamless and user-friendly interface, enabling effortless conversations with ChatGPT.
-- **Immersive Conversational Experience**: Engage in natural language conversations with ChatGPT using your own [OpenAI API key](https://platform.openai.com/account/api-keys), creating an authentic and immersive experience that closely resembles conversing with a real person.
+- **Intuitive User Interface**: The **ChatGPT Tkinter Desktop App** provides a seamless and user-friendly interface, enabling effortless conversations with ChatGPT.
+- **Immersive Conversational Experience**: Engage in natural language conversations with ChatGPT using your own [OpenAI API key](https://platform.openai.com/api-keys), creating an authentic and immersive experience that closely resembles conversing with a real person.
+- **Model Selection**: Choose between the **GPT-3.5 Turbo** and **GPT-4 Turbo** models to tailor the conversational capabilities to your specific needs, ensuring optimal performance and accuracy.
 - **Conversation History**: Easily access and review your past conversations within the app, allowing for convenient reference and continuity.
 - **Audio Playback**: Enhance your experience by listening to the chatbot's responses through built-in audio playback functionality, bringing the conversation to life.
 
@@ -48,9 +49,9 @@ To intall the desktop application on your computer, please follow these steps:
 
 1) Clone this repository to your local machine using the following command:
     ```
-    git clone https://github.com/MaxineXiong/ChatGPT-3.5-Desktop-App.git
+    git clone https://github.com/MaxineXiong/ChatGPT-Tkinter-Desktop-App.git
     ```
-    Alternatively, you can download the EXE application from the web application **[Talk to GPT-3.5](https://maxinexiong-openai-api-web-apps-home-xbxlm8.streamlit.app/Talk_To_GPT3.5)**.
+    Alternatively, you can download the EXE application from the web application **[Talk to GPT](https://maxinexiong-openai-api-web-apps-home-xbxlm8.streamlit.app/Talk_To_GPT)**.
 
 2) Download and install the latest version of [Python](https://www.python.org/downloads/) for your system. Make sure to select the "Add Python to PATH" option during the installation process.
 
@@ -75,13 +76,13 @@ Now you can start chatting with ChatGPT by entering your [API key](https://platf
 
 ## Contributions
 
-Contributions to the ChatGPT-3.5 Desktop App are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request. Your contributions can help improve the functionality and user experience of the app.
+Contributions to the **ChatGPT Tkinter Desktop App** are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request. Your contributions can help improve the functionality and user experience of the app.
 
 <br/>
 
 ## License
 
-The ChatGPT-3.5 Desktop App is licensed under the [MIT License](https://choosealicense.com/licenses/mit/). Feel free to use, modify, and distribute the application in accordance with the terms of the license.
+The **ChatGPT Tkinter Desktop App** is licensed under the [MIT License](https://choosealicense.com/licenses/mit/). Feel free to use, modify, and distribute the application in accordance with the terms of the license.
 
 <br/>
 
@@ -89,12 +90,12 @@ The ChatGPT-3.5 Desktop App is licensed under the [MIT License](https://chooseal
 
 I would like to express my gratitude to the open-source community for their invaluable contributions. The development of this app would not have been possible without the support and efforts of the following projects and individuals:
 
-- [OpenAI](https://openai.com/) for developing the ChatGPT 3.5 model.
+- [OpenAI](https://openai.com/) for developing GPT models and APIs.
 - [Python](https://www.python.org/) for providing a powerful programming language.
 - [GitHub](https://github.com/) for hosting this repository and enabling collaboration.
 
 <br/>
 
-Thank you for using the ChatGPT 3.5 Desktop App! I hope you find it useful and enjoy your conversations with ChatGPT.
+Thank you for using the **ChatGPT Tkinter Desktop App**! I hope you find it useful and enjoy your conversations with ChatGPT.
 
 
