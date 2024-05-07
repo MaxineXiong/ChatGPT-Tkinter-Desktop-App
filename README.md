@@ -68,7 +68,7 @@ To intall the desktop application on your computer, please follow these steps:
 
 3) Navigate to the project folder using File Explorer, type `cmd` in the address bar at the top of the window, and press Enter. This will open Command Prompt in the project folder.
 
-4) Navigate to the project folder, and launch the desktop application within the virtual environment by entering the following command in the Command Prompt:
+4) Now launch the desktop application within the virtual environment by entering the following command in the Command Prompt:
     ```
     virtual\Scripts\python MAIN.py
     ```
