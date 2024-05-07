@@ -1,4 +1,4 @@
-import openai
+from openai import OpenAI
 import pyttsx3
 import re
 import glob
@@ -7,40 +7,34 @@ import glob
 class ChatGPTBot:
     # The initializer method gets executed when a new ChatGPTBot object (i.e. bot) is created
     def __init__(self, api_key):
-        # Set up the OpenAI API Key
-        self.api_key = api_key
-        openai.api_key = self.api_key
+        # Instantiate a client object using the api_key
+        self.client = OpenAI(api_key = api_key)
         # Initialize the message history for chat storing
         self.message_history = []
-        # Remove all previously existing audio files
-        for file in glob.glob('./*.wav'):
-            os.remove(file)
 
 
     # The bot sends the user's message to GPT model and receives API response
     # Document and update the message history between the user and the bot
     def chatting(self,
                  user_message,
-                 model = "gpt-3.5-turbo",
-                 role = 'user'):
+                 model = "gpt-3.5-turbo"):
         # Assemble a request using the user's message and append it to message_history
-        request = {"role": role, "content": user_message}
+        request = {"role": 'user', "content": user_message}
         self.message_history.append(request)
 
-        # Create a chat completion object using OpenAI API
-        completion = openai.ChatCompletion.create(
-          model = model,
-          messages = self.message_history
+        # Create a chat completion object
+        completion = self.client.chat.completions.create(
+            model = model,
+            messages = self.message_history
         )
 
         # Extract bot's message from the API response
-        bot_message = completion['choices'][0]['message']['content']
+        bot_message = completion.choices[0].message.content
         # Assemble a response using the bot's message and append it to the message_history
         response = {"role": 'assistant', "content": bot_message}
         self.message_history.append(response)
 
         return bot_message
-
 
 
     # Retrieve a Chinese voice from pyttsx3 engine
@@ -70,7 +64,7 @@ class ChatGPTBot:
          # Get a list of English words from the the bot's message
         en_words = re.findall("[a-zA-Z\']+", bot_message)
         # Get a list of Chinese characters from the bot's message
-        ch_words = re.findall("[\u4e00-\u9FFF]", bot_message)  # detect chinese characters: eg. [['当', '然', '可', '以']
+        ch_words = re.findall("[\u4e00-\u9FFF]", bot_message)  # detect chinese characters: eg. ['当', '然', '可', '以']
         # Total number of both Chinese characters and English words
         total_len = len(en_words) + len(ch_words)
         if total_len > 0:
@@ -82,6 +76,9 @@ class ChatGPTBot:
                 chinese_voice = self.get_chinese_voice(tts_engine)
                 # Set the voice property of the pyttsx3 engine to the Chinese voice
                 tts_engine.setProperty("voice", chinese_voice.id)
+        # Lower the rate of the speech
+        rate = tts_engine.getProperty('rate')
+        tts_engine.setProperty('rate', rate - 20)
         # Convert the bot's message from text to speech
         tts_engine.say(bot_message)
         # Wait for the engine to complete speaking the message
