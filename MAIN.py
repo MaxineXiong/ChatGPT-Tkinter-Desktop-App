@@ -133,7 +133,7 @@ class TkinterApp:
         self.model_var = customtkinter.StringVar(value = 'Select a GPT Model')
         # Create a ComboBox widget for the user to select a GPT model
         self.model_combobox = customtkinter.CTkComboBox(master = self.frame_key,
-                                                        values = ['Select a GPT Model', 'gpt-3.5-turbo', 'gpt-4-turbo'],
+                                                        values = ['Select a GPT Model', 'gpt-3.5-turbo', 'gpt-4o', 'gpt-4-turbo'],
                                                         fg_color = '#313338',
                                                         button_hover_color = '#5865f2',
                                                         width = 175,
