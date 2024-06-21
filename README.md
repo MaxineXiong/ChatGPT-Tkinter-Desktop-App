@@ -35,22 +35,21 @@ closely resembles interacting with a real person.
 The repository is structured as follows:
 ```
 ChatGPT-Tkinter-Desktop-App/
-├── MAIN.py                   
-├── bot.py                   
-├── requirements.txt         
+├── main.py                   
+├── bot.py
 ├── icons/
-│   └── chat.ico
-├── virtual/
-│   └── *         
+│   └── chat.ico                 
+├── requirements.txt         
+├── .gitignore
 ├── README.md                 
 └── LICENSE                   
 ```
 
-- **MAIN.py**: This file is the main entry point of the desktop app and contains the Python code responsible for handling the user interface and communication with the GPT model.
+- **main.py**: This file is the main entry point of the desktop app and contains the Python code responsible for handling the user interface and communication with the GPT model.
 - **bot.py**: This file contains the Python code that defines the class for the ChatGPTBot, encapsulating the functionality of the ChatGPT model and handling the generation of responses.
-- **requirements.txt**: This file lists all the required Python modules and packages necessary to run the desktop app. You can install these dependencies on your local computer by running the command `pip install -r requirements.txt`.
 - **icons/**: This folder contains the ICO image that is used as the app's window icon.
-- **virtual/**: This folder contains all files related to the virtual environment, facilitating an isolated space for Python package management.
+- **requirements.txt**: This file lists all the required Python modules and packages necessary to run the desktop app. You can install these dependencies on your local computer by running the command `pip install -r requirements.txt`.
+- **.gitignore**: Specifies which files and directories Git should ignore, helping to keep the repository clean from unnecessary or sensitive files.
 - **README.md**: Provides an overview of this repository.
 - **LICENSE**: The license file for the project.
 
