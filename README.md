@@ -10,7 +10,7 @@
 
 Welcome to the repository for the **unofficial ChatGPT Tkinter Desktop App**! This user-friendly application allows you to have natural language conversations
 with [ChatGPT](https://openai.com/index/chatgpt) directly from your local computer — provided you have internet access. Built upon OpenAI's [**Chat Completions API**](https://platform.openai.com/docs/guides/text-generation/chat-completions-api), it leverages advanced natural language processing capabilities to deliver high-quality responses to human's requests.
-Through an intuitive user interface, you can easily select between [***GPT-3.5 Turbo***](https://platform.openai.com/docs/models/gpt-3-5-turbo), [***GPT-4o mini***](https://platform.openai.com/docs/models/gpt-4o-mini) [***GPT-4o***](https://platform.openai.com/docs/models/gpt-4o), [***GPT-4 Turbo***](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4) models, engage in conversations with ChatGPT, review previous interactions,
+Through an intuitive user interface, you can easily select between [***GPT-3.5 Turbo***](https://platform.openai.com/docs/models/gpt-3-5-turbo), [***GPT-4o mini***](https://platform.openai.com/docs/models/gpt-4o-mini), [***GPT-4o***](https://platform.openai.com/docs/models/gpt-4o), [***GPT-4 Turbo***](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4) models, engage in conversations with ChatGPT, review previous interactions,
 and even listen to the chatbot's responses through audio playback. The goal of this application is to provide an immersive and enjoyable conversational experience that
 closely resembles interacting with a real person.
 
