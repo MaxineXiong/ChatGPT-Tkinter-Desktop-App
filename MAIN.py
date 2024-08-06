@@ -179,6 +179,7 @@ class TkinterApp:
             values=[
                 "Select a GPT Model",
                 "gpt-3.5-turbo",
+                "gpt-4o-mini",
                 "gpt-4o",
                 "gpt-4-turbo",
             ],
