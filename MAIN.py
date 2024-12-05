@@ -178,9 +178,10 @@ class TkinterApp:
             master=self.frame_key,
             values=[
                 "Select a GPT Model",
-                "gpt-3.5-turbo",
                 "gpt-4o-mini",
                 "gpt-4o",
+                "o1-mini",
+                "o1-preview",
                 "gpt-4-turbo",
             ],
             fg_color="#313338",

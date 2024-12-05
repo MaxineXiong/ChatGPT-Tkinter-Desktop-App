@@ -23,13 +23,13 @@ class ChatGPTBot:
         self.message_history = []
 
 
-    def respond(self, user_message: str, model: str = "gpt-3.5-turbo"):
+    def respond(self, user_message: str, model: str = "gpt-4o-mini"):
         """Method to send the user's message to GPT model and receive
         API response. This method also documents and updates the message
         history between the user and the bot.
         Args:
         - user_message (string): The user's input message.
-        - model (string): The GPT model to use. Default is 'gpt-3.5-turbo'.
+        - model (string): The GPT model to use. Default is 'gpt-4o-mini'.
         """
         # Assemble a request using the user's message and ...
         # ...append it to message_history
