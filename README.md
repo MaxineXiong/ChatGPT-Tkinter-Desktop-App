@@ -10,7 +10,7 @@
 
 Welcome to the repository for the **unofficial ChatGPT Tkinter Desktop App**! This user-friendly application allows you to have natural language conversations
 with [ChatGPT](https://openai.com/index/chatgpt) directly from your local computer — provided you have internet access. Built upon OpenAI's [**Chat Completions API**](https://platform.openai.com/docs/guides/text-generation/chat-completions-api), it leverages advanced natural language processing capabilities to deliver high-quality responses to human's requests.
-Through an intuitive user interface, you can easily select between [***o1-mini***](https://platform.openai.com/docs/models#o1), [***o1-preview***](https://platform.openai.com/docs/models#o1), [***gpt-4o***](https://platform.openai.com/docs/models#gpt-4o), [***gpt-4o-mini***](https://platform.openai.com/docs/models#gpt-4o-mini),  and [***gpt-4-turbo***](https://platform.openai.com/docs/models#gpt-4-turbo-and-gpt-4) models, engage in conversations with ChatGPT, review previous interactions,
+Through an intuitive user interface, you can easily select between [***o1***](https://platform.openai.com/docs/models/o1), [***o3-mini***](https://platform.openai.com/docs/models/o3-mini), [***gpt-4.5-preview***](https://platform.openai.com/docs/models/gpt-4.5-preview), [***gpt-4o***](https://platform.openai.com/docs/models/gpt-4o),  and [***gpt-4o-mini***](https://platform.openai.com/docs/models/gpt-4o-mini) models, engage in conversations with ChatGPT, review previous interactions,
 and even listen to the chatbot's responses through audio playback. The goal of this application is to provide an immersive and enjoyable conversational experience that
 closely resembles interacting with a real person.
 
@@ -24,7 +24,7 @@ closely resembles interacting with a real person.
 
 - **Intuitive User Interface**: The **ChatGPT Tkinter Desktop App** provides a seamless and user-friendly interface, enabling effortless conversations with ChatGPT.
 - **Immersive Conversational Experience**: Engage in natural language conversations with ChatGPT using your own [OpenAI API key](https://platform.openai.com/api-keys), creating an authentic and immersive experience that closely resembles conversing with a real person.
-- **Model Selection**: Choose between the **GPT-4o**, **GPT-4o mini**, **o1-mini**, **o1-preview**, and **GPT-4 Turbo** models to tailor the conversational capabilities to your specific needs, ensuring optimal performance and accuracy.
+- **Model Selection**: Choose between the ***o1***, ***o3-mini***, ***GPT-4.5***, ***GPT-4o***, and ***GPT-4o mini*** models to tailor the conversational capabilities to your specific needs, ensuring optimal performance and accuracy.
 - **Conversation History**: Easily access and review your past conversations within the app, allowing for convenient reference and continuity.
 - **Audio Playback**: Enhance your experience by listening to the chatbot's responses through built-in audio playback functionality, bringing the conversation to life.
 

@@ -179,10 +179,10 @@ class TkinterApp:
             values=[
                 "Select a GPT Model",
                 "gpt-4o-mini",
+                "o3-mini",
                 "gpt-4o",
-                "o1-mini",
-                "o1-preview",
-                "gpt-4-turbo",
+                "o1",
+                "gpt-4.5-preview",
             ],
             fg_color="#313338",
             button_hover_color="#5865f2",
